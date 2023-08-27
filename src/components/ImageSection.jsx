@@ -13,7 +13,7 @@ import Image12 from "../assets/Images/design-12.jpg";
 
 const ImageSection = () => {
   return (
-    <div className="container mx-auto px-4 md:px-4 my-36 items-center">
+    <div className="container mx-auto px-4 md:px-4 mt-48 items-center">
       <div className="flex flex-col md:flex-row gap-8 flex-wrap justify-center items-center">
         <div className="overflow-hidden w-full md:w-72 h-96">
           <img src={Image1} alt={Image1} className="w-full h-full" />

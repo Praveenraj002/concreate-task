@@ -1,9 +1,11 @@
 import { HiOutlineMenuAlt4 } from "react-icons/hi";
+import { useState } from "react";
+import MenuLinksSm from "./MenuLinksSm";
 
 const NavbarLg = () => {
   return (
     <>
-      <div className="container mx-auto px-24 mt-6 py-4">
+      <div className="container mx-auto px-24 mt-6 pb-20">
         <div className="flex flex-row justify-between items-center">
           <a href="" className="font-sans font-light tracking-widest">
             INTERIORS
@@ -31,6 +33,12 @@ const NavbarLg = () => {
   );
 };
 const NavbarSm = () => {
+  const [showMenu, setShowMenu] = useState(false);
+
+  const menuHandler = () => {
+    setShowMenu(!showMenu);
+  };
+
   return (
     <>
       <div className="container mx-auto px-6">
@@ -41,11 +49,15 @@ const NavbarSm = () => {
           <p className="capitalize font-sans font-light text-sm tracking-widest">
             TIMELESS INTERIORS
           </p>
-          <div>
-            <HiOutlineMenuAlt4 className="text-3xl font-light" />
+          <div className="my-4">
+            <HiOutlineMenuAlt4
+              className="text-3xl font-light"
+              onClick={menuHandler}
+            />
           </div>
         </div>
       </div>
+      {showMenu ? <MenuLinksSm /> : ""}
     </>
   );
 };
@@ -53,7 +65,7 @@ const NavbarSm = () => {
 const Navbar = () => {
   return (
     <>
-      <div className="bg-white fixed top-0 left-0 right-0">
+      <div className="bg-white fixed top-0 left-0 right-0 mb-24">
         <div className="lg:hidden">
           <NavbarSm />
         </div>
