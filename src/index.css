@@ -7,7 +7,42 @@
 }
 
 .transition-all {
-    transition-property: all;
-    transition-duration: 300ms;
-    transition-timing-function: ease-in-out;
+  transition-property: all;
+  transition-duration: 300ms;
+  transition-timing-function: ease-in-out;
+}
+
+.fade-in {
+  animation: fadeInAnimation 1.5s ease-in;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fade-out {
+  animation: fadeInAnimation 1.5s ease-out;
+}
+
+@keyframes fadeOutAnimation {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 100;
+  }
+}
+
+.navbar-header {
+  cursor: pointer;
+  display: inline-block;
+}
+
+.navbar-header:hover a {
+  display: inline-block;
 }

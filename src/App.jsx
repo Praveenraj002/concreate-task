@@ -2,10 +2,18 @@ import Navbar from "./components/Navbar";
 import ImageSection from "./components/ImageSection";
 import Footer from "./components/Footer";
 
+import { useState, useEffect } from "react";
+
 function App() {
+  const [showContent, setShowContent] = useState(false);
+
+  useEffect(() => {
+    setShowContent(true);
+  }, []);
+
   return (
     <>
-      <div className="transition-all">
+      <div className={` ${showContent ? "fade-in" : ""}`}>
         <div>
           <Navbar />
         </div>
