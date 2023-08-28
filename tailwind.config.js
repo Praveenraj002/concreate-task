@@ -13,6 +13,9 @@ export default {
         sans: ["Inter", "sans-serif"],
         forum: ["Forum", "cursive"],
       },
+      colors: {
+        cardGrey: "hsl(53, 6%, 73%)",
+      },
     },
   },
   plugins: [],

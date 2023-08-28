@@ -144,7 +144,7 @@ const NavbarSm = () => {
 const Navbar = () => {
   return (
     <>
-      <div className="bg-white fixed top-0 left-0 right-0 mb-24">
+      <div className="bg-white z-50 fixed top-0 left-0 right-0 mb-24">
         <div className="lg:hidden">
           <NavbarSm />
         </div>

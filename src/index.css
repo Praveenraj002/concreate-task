@@ -46,3 +46,7 @@
 .navbar-header:hover a {
   display: inline-block;
 }
+
+image-container img:hover {
+  display: none;
+}
