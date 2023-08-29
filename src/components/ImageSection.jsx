@@ -17,14 +17,14 @@ const ImageSection = () => {
       <div className="flex flex-col md:flex-row gap-8 flex-wrap justify-center items-center mb-8 md:mb-0">
         <div className="overflow-hidden w-full md:w-72 h-96 cursor-pointer relative image-container md:mb-8">
           <div className="absolute inset-0 opacity-0 hover:opacity-100 transition-opacity duration-700">
-            <div className="bg-cardGrey h-full flex justify-center items-center ">
-              <div className="border border-black m-4 py-28">
-                <div className="px-10 text-center">
+            <div className="bg-cardGrey h-full flex justify-center items-center">
+              <div className=" border border-black m-4 py-40 px-32 btn">
+                <div className="text-center noselect">
                   <h2 className="text-xl font-bold font-forum tracking-widest">
                     HORSE FARM
                   </h2>
                   <p className="font-sans text-sm font-light tracking-widest">
-                    -ROSWELL-
+                    ROSWELL
                   </p>
                 </div>
               </div>
@@ -39,13 +39,13 @@ const ImageSection = () => {
         <div className="overflow-hidden w-full md:w-72 h-96 cursor-pointer relative image-container md:mb-8">
           <div className="absolute inset-0 opacity-0 hover:opacity-100 transition-opacity duration-700">
             <div className="bg-cardGrey h-full flex justify-center items-center ">
-              <div className="border border-black m-4 py-28">
-                <div className="px-10 text-center">
+              <div className="border border-black m-4 py-40 px-32 btn">
+                <div className="text-center noselect">
                   <h2 className="text-xl font-bold font-forum tracking-widest">
                     PERENNIAL OVERLOOK
                   </h2>
                   <p className="font-sans text-sm font-light tracking-widest">
-                    -MARIETTA-
+                    MARIETTA
                   </p>
                 </div>
               </div>
@@ -60,13 +60,13 @@ const ImageSection = () => {
         <div className="overflow-hidden w-full md:w-72 h-96 cursor-pointer relative image-container md:mb-8">
           <div className="absolute inset-0 opacity-0 hover:opacity-100 transition-opacity duration-700">
             <div className="bg-cardGrey h-full flex justify-center items-center ">
-              <div className="border border-black m-4 py-28">
-                <div className="px-10 text-center">
+              <div className="border border-black m-4 py-40 px-32 btn">
+                <div className="px-10 text-center noselect">
                   <h2 className="text-xl font-bold font-forum tracking-widest">
                     PIED A TERRE
                   </h2>
                   <p className="font-sans text-sm font-light tracking-widest">
-                    -BUCKHEAD-
+                    BUCKHEAD
                   </p>
                 </div>
               </div>
@@ -83,13 +83,13 @@ const ImageSection = () => {
         <div className="overflow-hidden w-full md:w-72 h-96 cursor-pointer relative image-container md:mb-8">
           <div className="absolute inset-0 opacity-0 hover:opacity-100 transition-opacity duration-700">
             <div className="bg-cardGrey h-full flex justify-center items-center ">
-              <div className="border border-black m-4 py-28">
-                <div className="px-10 text-center">
+              <div className="border border-black m-4 py-40 px-32 btn">
+                <div className="px-10 text-center noselect">
                   <h2 className="text-xl font-bold font-forum tracking-widest">
                     MORDERN COTTAGE
                   </h2>
                   <p className="font-sans text-sm font-light tracking-widest">
-                    -BROOKHAVEN-
+                    BROOKHAVEN
                   </p>
                 </div>
               </div>
@@ -104,13 +104,13 @@ const ImageSection = () => {
         <div className="overflow-hidden w-full md:w-72 h-96 cursor-pointer relative image-container md:mb-8">
           <div className="absolute inset-0 opacity-0 hover:opacity-100 transition-opacity duration-700">
             <div className="bg-cardGrey h-full flex justify-center items-center ">
-              <div className="border border-black m-4 py-28">
+              <div className="border border-black m-4 py-40 px-32 btn">
                 <div className="px-10 text-center">
                   <h2 className="text-xl font-bold font-forum tracking-widest">
                     LAKEFRONT LEGACY
                   </h2>
                   <p className="font-sans text-sm font-light tracking-widest">
-                    -LAKE BURTON-
+                    LAKE BURTON
                   </p>
                 </div>
               </div>
@@ -125,13 +125,13 @@ const ImageSection = () => {
         <div className="overflow-hidden w-full md:w-72 h-96 cursor-pointer relative image-container md:mb-8">
           <div className="absolute inset-0 opacity-0 hover:opacity-100 transition-opacity duration-700">
             <div className="bg-cardGrey h-full flex justify-center items-center ">
-              <div className="border border-black m-4 py-28">
-                <div className="px-10 text-center">
+              <div className="border border-black m-4 py-40 px-32 btn">
+                <div className="px-10 text-center noselect">
                   <h2 className="text-xl font-bold font-forum tracking-widest">
                     WATERFRONT RETREAT
                   </h2>
                   <p className="font-sans text-sm font-light tracking-widest">
-                    -LAKE BURTON-
+                    LAKE BURTON
                   </p>
                 </div>
               </div>
@@ -148,13 +148,13 @@ const ImageSection = () => {
         <div className="overflow-hidden w-full md:w-72 h-96 cursor-pointer relative image-container md:mb-8">
           <div className="absolute inset-0 opacity-0 hover:opacity-100 transition-opacity duration-700">
             <div className="bg-cardGrey h-full flex justify-center items-center ">
-              <div className="border border-black m-4 py-28">
-                <div className="px-10 text-center">
+              <div className="border border-black m-4 py-40 px-32 btn">
+                <div className="px-10 text-center noselect">
                   <h2 className="text-xl font-bold font-forum tracking-widest">
                     REDEFINED CLASSIC
                   </h2>
                   <p className="font-sans text-sm font-light tracking-widest">
-                    -ATLANTA-
+                    ATLANTA
                   </p>
                 </div>
               </div>
@@ -169,13 +169,13 @@ const ImageSection = () => {
         <div className="overflow-hidden w-full md:w-72 h-96 cursor-pointer relative image-container md:mb-8">
           <div className="absolute inset-0 opacity-0 hover:opacity-100 transition-opacity duration-700">
             <div className="bg-cardGrey h-full flex justify-center items-center ">
-              <div className="border border-black m-4 py-28">
-                <div className="px-10 text-center">
+              <div className="border border-black m-4 py-40 px-32 btn">
+                <div className="px-10 text-center noselect">
                   <h2 className="text-xl font-bold font-forum tracking-widest">
                     TREE TOPS
                   </h2>
                   <p className="font-sans text-sm font-light tracking-widest">
-                    -OGUNQUIT-
+                    OGUNQUIT
                   </p>
                 </div>
               </div>
@@ -190,13 +190,13 @@ const ImageSection = () => {
         <div className="overflow-hidden w-full md:w-72 h-96 cursor-pointer relative image-container md:mb-8">
           <div className="absolute inset-0 opacity-0 hover:opacity-100 transition-opacity duration-700">
             <div className="bg-cardGrey h-full flex justify-center items-center ">
-              <div className="border border-black m-4 py-28">
-                <div className="px-10 text-center">
+              <div className="border border-black m-4 py-40 px-32 btn">
+                <div className="px-10 text-center noselect">
                   <h2 className="text-xl font-bold font-forum tracking-widest">
                     EAGLE PINES
                   </h2>
                   <p className="font-sans text-sm font-light tracking-widest">
-                    -ASPEN-
+                    ASPEN
                   </p>
                 </div>
               </div>
@@ -213,13 +213,13 @@ const ImageSection = () => {
         <div className="overflow-hidden w-full md:w-72 h-96 cursor-pointer relative image-container md:mb-8">
           <div className="absolute inset-0 opacity-0 hover:opacity-100 transition-opacity duration-700">
             <div className="bg-cardGrey h-full flex justify-center items-center ">
-              <div className="border border-black m-4 py-28">
-                <div className="px-10 text-center">
+              <div className="border border-black m-4 py-40 px-32 btn">
+                <div className="px-10 text-center noselect">
                   <h2 className="text-xl font-bold font-forum tracking-widest">
                     MORDERN WATERFRONT
                   </h2>
                   <p className="font-sans text-sm font-light tracking-widest">
-                    -VININGS-
+                    VININGS
                   </p>
                 </div>
               </div>
@@ -234,13 +234,13 @@ const ImageSection = () => {
         <div className="overflow-hidden w-full md:w-72 h-96 cursor-pointer relative image-container md:mb-8">
           <div className="absolute inset-0 opacity-0 hover:opacity-100 transition-opacity duration-700">
             <div className="bg-cardGrey h-full flex justify-center items-center ">
-              <div className="border border-black m-4 py-28">
-                <div className="px-10 text-center">
+              <div className="border border-black m-4 py-40 px-32 btn">
+                <div className="px-10 text-center noselect">
                   <h2 className="text-xl font-bold font-forum tracking-widest">
                     TUDOR REVIVAL
                   </h2>
                   <p className="font-sans text-sm font-light tracking-widest">
-                    -BUCKHEAD-
+                    BUCKHEAD
                   </p>
                 </div>
               </div>
@@ -255,13 +255,13 @@ const ImageSection = () => {
         <div className="overflow-hidden w-full md:w-72 h-96 cursor-pointer relative image-container md:mb-8">
           <div className="absolute inset-0 opacity-0 hover:opacity-100 transition-opacity duration-700">
             <div className="bg-cardGrey h-full flex justify-center items-center ">
-              <div className="border border-black m-4 py-28">
-                <div className="px-10 text-center">
+              <div className="border border-black m-4 py-40 px-32 btn">
+                <div className="px-10 text-center noselect">
                   <h2 className="text-xl font-bold font-forum tracking-widest">
                     SERENBE SHOWHOUSE
                   </h2>
                   <p className="font-sans text-sm font-light tracking-widest">
-                    -SERENBE-
+                    SERENBE
                   </p>
                 </div>
               </div>
